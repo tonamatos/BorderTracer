@@ -413,7 +413,7 @@
   
 
 
-<p><img align="right" alt="Tracing algorithm" src="cover.png" width="400" /></p>
+<p><img align="right" alt="Tracing algorithm" src="cover.png" width="250" /></p>
 <h1 id="welcome-to-bordertracer">Welcome to BorderTracer</h1>
 <p>An advanced border-tracing algorithm that generalizes classical image segmentation techniques from pixel-based grids to arbitrary polygonal tilings, enabling contour detection in abstract adjacency graphs.</p>
 <hr />
@@ -481,7 +481,7 @@
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.triangular</span><span class="w"> </span><span class="kn">import</span> <span class="n">TriangularTilingGraph</span>
 
 <span class="c1"># Create tiling and object</span>
-<span class="n">G</span> <span class="o">=</span> <span class="n">RectangularTilingGraph</span><span class="p">()</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">TriangularTilingGraph</span><span class="p">()</span>
 <span class="n">G</span><span class="o">.</span><span class="n">create_adjacencies</span><span class="p">(</span><span class="n">adjacency</span><span class="o">=</span><span class="s2">&quot;3-adj&quot;</span><span class="p">)</span>
 <span class="n">C</span> <span class="o">=</span> <span class="n">circular_object</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
 
@@ -497,7 +497,7 @@
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.hexagonal</span><span class="w"> </span><span class="kn">import</span> <span class="n">HexagonalTilingGraph</span>
 
 <span class="c1"># Create tiling and object</span>
-<span class="n">G</span> <span class="o">=</span> <span class="n">RectangularTilingGraph</span><span class="p">()</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">HexagonalTilingGraph</span><span class="p">()</span>
 <span class="n">G</span><span class="o">.</span><span class="n">create_adjacencies</span><span class="p">(</span><span class="n">adjacency</span><span class="o">=</span><span class="s2">&quot;6-adj&quot;</span><span class="p">)</span>
 <span class="n">C</span> <span class="o">=</span> <span class="n">circular_object</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
 

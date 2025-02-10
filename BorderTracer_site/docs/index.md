@@ -1,4 +1,4 @@
-![Tracing algorithm](cover.png){align=right width="400"}
+![Tracing algorithm](cover.png){align=right width="250"}
 
 # Welcome to BorderTracer
 
@@ -83,7 +83,7 @@ from visualization import plot_tiling
     from examples.triangular import TriangularTilingGraph
 
     # Create tiling and object
-    G = RectangularTilingGraph()
+    G = TriangularTilingGraph()
     G.create_adjacencies(adjacency="3-adj")
     C = circular_object(G)
 
@@ -102,7 +102,7 @@ from visualization import plot_tiling
     from examples.hexagonal import HexagonalTilingGraph
 
     # Create tiling and object
-    G = RectangularTilingGraph()
+    G = HexagonalTilingGraph()
     G.create_adjacencies(adjacency="6-adj")
     C = circular_object(G)
 
