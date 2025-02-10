@@ -2,7 +2,7 @@ from graph import TilingGraph, Tile
 from itertools import product
 
 class TriangularTilingGraph(TilingGraph):
-  def __init__(self, cols=10, rows=10, side_length=1):
+  def __init__(self, cols=20, rows=10, side_length=1):
     super().__init__()
     self.side_length = side_length
     self.height = side_length # Warning: irrational numbers might produce rounding errors!

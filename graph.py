@@ -22,13 +22,13 @@ class TilingGraph(nx.DiGraph):
     super().__init__()
     self.orientation = {}
   
-  def highlight(self, tile_centers, color='skyblue'):
+  def highlight(self, tiles, color='skyblue'):
     '''
     Changes the color of the tiles corresponding to the given tile_centers
     to distinguish them from the background.
     '''
     for tile in self.nodes():
-      if tile.center in tile_centers:
+      if tile in tiles:
         tile.color = color
 
   def create_freeman_code(self):
