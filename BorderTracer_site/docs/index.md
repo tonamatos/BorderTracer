@@ -137,6 +137,6 @@ The generalization from square pixels, which constitute the standard for 2D digi
 
 ## References
 
-This framework was developed by [Tonatiuh Matos-Wiederhold](https://sites.google.com/view/wiederhold/home) as part of the upcoming research paper:
+This framework was developed by Tonatiuh Matos-[Wiederhold.dev](https://wiederhold.dev) as part of the upcoming research paper:
 
- > Matos-Wiederhold, T., Wiederhold, P., _Border tracing in oriented adjacency graphs of polygonal tilings with application to objects made of rectangular, triangular or hexagonal tiles_, submitted to **Theoretical Computer Science**, 2025.
+ > Wiederhold, P., Matos-Wiederhold, T., _Border tracing in oriented adjacency graphs of polygonal tilings with application to objects made of rectangular, triangular or hexagonal tiles_, submitted to **Theoretical Computer Science**, 2025.
