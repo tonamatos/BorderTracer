@@ -2,7 +2,7 @@
 
 # Welcome to BorderTracer
 
-An advanced border-tracing algorithm that generalizes classical image segmentation techniques from pixel-based grids to arbitrary polygonal tilings, enabling contour detection in abstract adjacency graphs.
+An advanced border-tracing algorithm that generalizes classical image segmentation techniques from pixel-based grids to arbitrary polygonal tilings, enabling contour detection in abstract adjacency graphs. Based on research published by the authors in the journal **Theoretical Computer Science**.
 
 ---
 
@@ -137,6 +137,6 @@ The generalization from square pixels, which constitute the standard for 2D digi
 
 ## References
 
-This framework was developed by Tonatiuh Matos-[Wiederhold.dev](https://wiederhold.dev) as part of the upcoming research paper:
+This framework was developed by [Tonatiuh Matos-Wiederhold](https://wiederhold.dev) as part of the upcoming research paper:
 
- > Wiederhold, P., Matos-Wiederhold, T., _Border tracing in oriented adjacency graphs of polygonal tilings with application to objects made of rectangular, triangular or hexagonal tiles_, submitted to **Theoretical Computer Science**, 2025.
+ > Wiederhold, P., Matos-Wiederhold, T., _Border tracing in oriented adjacency graphs of polygonal tilings with application to objects made of rectangular, triangular or hexagonal tiles_,**Theoretical Computer Science**, 2025.
