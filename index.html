@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.d7758b05.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.a40c8224.min.css">
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
@@ -237,7 +237,6 @@
   
   <span class="md-ellipsis">
     Quickstart
-    
   </span>
   
 
@@ -249,7 +248,6 @@
   
   <span class="md-ellipsis">
     Quickstart
-    
   </span>
   
 
@@ -408,14 +406,13 @@
                 
                   
 
-
   
   
 
 
 <p><img align="right" alt="Tracing algorithm" src="cover.png" width="250" /></p>
 <h1 id="welcome-to-bordertracer">Welcome to BorderTracer</h1>
-<p>An advanced border-tracing algorithm that generalizes classical image segmentation techniques from pixel-based grids to arbitrary polygonal tilings, enabling contour detection in abstract adjacency graphs.</p>
+<p>Border-tracing algorithm that generalizes classical image segmentation techniques from pixel-based grids to arbitrary polygonal tilings, enabling contour detection in abstract adjacency graphs. Based on research published by the authors in the journal <strong>Theoretical Computer Science</strong>.</p>
 <hr />
 <h2 id="features">Features</h2>
 <div class="grid cards">
@@ -433,11 +430,11 @@
 <h2 id="quick-start">Quick Start</h2>
 <div class="highlight"><span class="filename">Quick installation</span><pre><span></span><code><span class="err">!</span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">tonamatos</span><span class="o">/</span><span class="n">BorderTracer</span><span class="o">.</span><span class="n">git</span>
 <span class="o">%</span><span class="n">cd</span> <span class="n">BorderTracer</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">tracing</span><span class="w"> </span><span class="kn">import</span> <span class="n">BorderTracer</span>
+<span class="kn">from</span> <span class="nn">tracing</span> <span class="kn">import</span> <span class="n">BorderTracer</span>
 </code></pre></div>
 <h2 id="examples">Examples</h2>
-<div class="highlight"><span class="filename">Methods for producing examples</span><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.objects</span><span class="w"> </span><span class="kn">import</span> <span class="n">circular_object</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">visualization</span><span class="w"> </span><span class="kn">import</span> <span class="n">plot_tiling</span>
+<div class="highlight"><span class="filename">Methods for producing examples</span><pre><span></span><code><span class="kn">from</span> <span class="nn">examples.objects</span> <span class="kn">import</span> <span class="n">circular_object</span>
+<span class="kn">from</span> <span class="nn">visualization</span> <span class="kn">import</span> <span class="n">plot_tiling</span>
 </code></pre></div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -446,7 +443,7 @@
 <div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">4-adjacent squares</label><label for="__tabbed_1_2">8-adjacent squares</label><label for="__tabbed_1_3">3-adjacent triangles</label><label for="__tabbed_1_4">6-adjacent hexagons</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.rectangular</span><span class="w"> </span><span class="kn">import</span> <span class="n">RectangularTilingGraph</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">examples.rectangular</span> <span class="kn">import</span> <span class="n">RectangularTilingGraph</span>
 
 <span class="c1"># Create tiling and object</span>
 <span class="n">G</span> <span class="o">=</span> <span class="n">RectangularTilingGraph</span><span class="p">()</span>
@@ -462,7 +459,7 @@
 <p><img alt="Output" src="4squares.png" /></p>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.rectangular</span><span class="w"> </span><span class="kn">import</span> <span class="n">RectangularTilingGraph</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">examples.rectangular</span> <span class="kn">import</span> <span class="n">RectangularTilingGraph</span>
 
 <span class="c1"># Create tiling and object</span>
 <span class="n">G</span> <span class="o">=</span> <span class="n">RectangularTilingGraph</span><span class="p">()</span>
@@ -478,7 +475,7 @@
 <p><img alt="Output" src="8squares.png" /></p>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.triangular</span><span class="w"> </span><span class="kn">import</span> <span class="n">TriangularTilingGraph</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">examples.triangular</span> <span class="kn">import</span> <span class="n">TriangularTilingGraph</span>
 
 <span class="c1"># Create tiling and object</span>
 <span class="n">G</span> <span class="o">=</span> <span class="n">TriangularTilingGraph</span><span class="p">()</span>
@@ -494,7 +491,7 @@
 <p><img alt="Output" src="triangles.png" /></p>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">examples.hexagonal</span><span class="w"> </span><span class="kn">import</span> <span class="n">HexagonalTilingGraph</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">examples.hexagonal</span> <span class="kn">import</span> <span class="n">HexagonalTilingGraph</span>
 
 <span class="c1"># Create tiling and object</span>
 <span class="n">G</span> <span class="o">=</span> <span class="n">HexagonalTilingGraph</span><span class="p">()</span>
@@ -538,9 +535,9 @@
 </li>
 </ul>
 <h2 id="references">References</h2>
-<p>This framework was developed by Tonatiuh Matos-<a href="https://wiederhold.dev">Wiederhold.dev</a> as part of the upcoming research paper:</p>
+<p>This framework was developed by <a href="https://wiederhold.dev">Tonatiuh Matos-Wiederhold</a> as part of the research paper:</p>
 <blockquote>
-<p>Wiederhold, P., Matos-Wiederhold, T., <em>Border tracing in oriented adjacency graphs of polygonal tilings with application to objects made of rectangular, triangular or hexagonal tiles</em>, submitted to <strong>Theoretical Computer Science</strong>, 2025.</p>
+<p>Wiederhold, P., Matos-Wiederhold, T., <em>Border tracing in oriented adjacency graphs of polygonal tilings with application to objects made of rectangular, triangular or hexagonal tiles</em>,<strong>Theoretical Computer Science</strong>, 2025.</p>
 </blockquote>
 
 
@@ -618,7 +615,7 @@
     <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "navigation.footer"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.f1b6f286.min.js"></script>
+      <script src="assets/javascripts/bundle.60a45f97.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
       
