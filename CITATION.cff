@@ -9,7 +9,7 @@ title: "Border tracing in oriented adjacency graphs of polygonal tilings"
 version: 1.0.0
 doi: 10.1016/j.tcs.2025.115729
 date-released: 2026-01-01
-url: "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME"
+url: "https://bordertracer.research.wiederhold.dev/"
 preferred-citation:
   type: article
   authors:
